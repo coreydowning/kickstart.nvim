@@ -1004,6 +1004,9 @@ require('lazy').setup({
         org_agenda_files = '~/orgfiles/**/*',
         org_default_notes_file = '~/orgfiles/refile.org',
         org_todo_keywords = { 'MAYBE(m)', 'TODO(t)', '|', 'DONE(d)' },
+        org_priority_highest = 'A',
+        org_priority_lowest = 'D',
+        org_priority_default = 'D',
         notifications = {
           enabled = true,
         },
