@@ -1004,6 +1004,9 @@ require('lazy').setup({
         org_agenda_files = '~/orgfiles/**/*',
         org_default_notes_file = '~/orgfiles/refile.org',
         org_todo_keywords = { 'MAYBE(m)', 'TODO(t)', '|', 'DONE(d)' },
+        notifications = {
+          enabled = true,
+        },
       }
 
       -- NOTE: If you are using nvim-treesitter with ~ensure_installed = "all"~ option
