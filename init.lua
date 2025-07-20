@@ -1007,6 +1007,7 @@ require('lazy').setup({
         org_priority_highest = 'A',
         org_priority_lowest = 'D',
         org_priority_default = 'D',
+        org_todo_repeat_to_state = 'TODO',
         notifications = {
           enabled = true,
         },
